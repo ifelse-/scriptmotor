@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+      "types" : ["node"],
       "target": "es2015",
       "module": "commonjs",
       "lib": ["DOM", "ES2015"],

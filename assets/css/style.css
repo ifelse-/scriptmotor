@@ -535,13 +535,18 @@ img {
 .circle-button .arrow {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 47%;
   -webkit-transform: translateX(-20px) translateY(-20px);
   -ms-transform: translateX(-20px) translateY(-20px);
   transform: translateX(-20px) translateY(-20px);
   display: inline-block;
   width: 0;
   height: 0;
+}
+
+.circle-button .arrow img {
+  width: 55px;
+  height: auto;
 }
 
 .circle-button .arrow svg {
@@ -3827,6 +3832,14 @@ body.loaded {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.logo img  {
+  width: 60%;
+}
+
+.small-copy-txt {
+  font-size: 12px;
+}
+
 /* Titles
 -----------------------------------------------------------------*/
 .sec-head h2 {
@@ -4025,8 +4038,7 @@ body.loaded {
   bottom: 0;
   right: 0;
   width: 40%;
-  border-top: 7px solid #f1f3f5;
-  border-left: 7px solid #f1f3f5;
+
 }
 
 .about-intro .cont .feat {
@@ -5683,9 +5695,7 @@ footer .subscribe button {
   border: 0;
 }
 
-footer .logo a {
-  max-width: 120px;
-}
+
 
 footer .bg-pattern {
   position: absolute;
@@ -6029,6 +6039,7 @@ footer .bg-pattern {
   -ms-transform: translateX(-7px) translateY(-7px);
   transform: translateX(-7px) translateY(-7px);
 }
+
 
 .block-img {
   position: relative;
