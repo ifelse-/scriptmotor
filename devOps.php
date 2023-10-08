@@ -62,17 +62,17 @@
         <header class="page-header section-padding pb-0 sub-bg">
             <div class="container mt-80">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                         <div class="caption">
-                            <h6 class="sub-title">What Can We Do ?</h6>
-                            <h1 class="fz-55">We combine our passion for design and code.</h1>
+                            <h6 class="sub-title">What Can I Do ?</h6>
+                            <h1 class="fz-55">Building Efficient Infrastructure and Streamlining with Automation.</h1>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 offset-lg-4">
                         <div class="text mt-30">
-                            <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+                            <p>In my DevOps journey, I've learned that collaboration between development and operations teams is the linchpin of success. Together, we build robust infrastructure, automate repetitive tasks, and streamline processes. </p>
                         </div>
                     </div>
                 </div>
@@ -81,36 +81,36 @@
                 <div class="slide-har st1">
                     <div class="box">
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>AWS</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Git</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Jenkins</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Docker</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Terraform</h4>
                         </div>
                     </div>
                     <div class="box">
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Prometheus</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Selenium</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Jira</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>CI/CD</h4>
                         </div>
                         <div class="item">
-                            <h4>Services</h4>
+                            <h4>Testing</h4>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
                             <div class="text">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit odit aut fugit, sed quia.</p>
+                                <p>Bridging the Gap: How DevOps Transformed My Development Workflow</p>
                             </div>
                         </div>
                     </div>
@@ -196,8 +196,8 @@
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">01. Digital</span>
-                            <h2 class="mb-30">Luxury Glassware.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">Docker Setup</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
@@ -255,8 +255,8 @@
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/2.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">02. Marketing</span>
-                            <h2 class="mb-30">Brand Identity.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">AWS Setup</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
@@ -314,8 +314,8 @@
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/3.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">03. Design</span>
-                            <h2 class="mb-30">Roseville Pottery.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">Jenkins Setup</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
@@ -388,84 +388,81 @@
                             <div class="tab-content current" id="tabs-1">
                                 <div class="item">
                                     <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                        <img class="rotate-circle" src="assets/imgs/dev-flow.png" alt="">
                                     </div>
                                     <div class="cont sub-bg">
                                         <div class="icon-img-60 mb-40">
                                             <img src="assets/imgs/serv-icons/0.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
+                                            <p>Git is a distributed version control system widely used for source code management and collaboration.</p>
                                         </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-content" id="tabs-2">
                                 <div class="item">
                                     <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                    <img class="rotate-circle" src="assets/imgs/dev-flow.png" alt="">
                                     </div>
                                     <div class="cont sub-bg">
                                         <div class="icon-img-60 mb-40">
                                             <img src="assets/imgs/serv-icons/1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
+                                            <p>Docker is a containerization platform that allows you to package applications and their dependencies into containers for easy deployment and scalability.</p>
                                         </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
+                                      
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-content" id="tabs-3">
                                 <div class="item">
                                     <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                    <img class="rotate-circle" src="assets/imgs/dev-flow.png" alt="">
                                     </div>
                                     <div class="cont sub-bg">
                                         <div class="icon-img-60 mb-40">
                                             <img src="assets/imgs/serv-icons/2.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
+                                            <p>Jenkins is a popular open-source automation server that facilitates continuous integration and continuous delivery (CI/CD) pipelines.</p>
                                         </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-content" id="tabs-4">
                                 <div class="item">
                                     <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                    <img class="rotate-circle" src="assets/imgs/dev-flow.png" alt="">
                                     </div>
                                     <div class="cont sub-bg">
                                         <div class="icon-img-60 mb-40">
                                             <img src="assets/imgs/serv-icons/0.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
+                                            <p>Terraform is an infrastructure as code (IaC) tool for provisioning and managing infrastructure resources across multiple cloud providers.</p>
                                         </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content" id="tabs-5">
+                                <div class="item">
+                                    <div class="img">
+                                    <img src="assets/imgs/dev-flow.png" alt="">
+                                    </div>
+                                    <div class="cont sub-bg">
+                                        <div class="icon-img-60 mb-40">
+                                            <img src="assets/imgs/serv-icons/0.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <p>Selenium is an open-source testing framework for web applications. It allows you to automate browser actions and perform functional testing across different browsers and platforms.</p>
+                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -474,15 +471,15 @@
                     <div class="col-lg-5 offset-lg-1 valign order1">
                         <div class="serv-tab-link tab-links full-width md-mb50">
                             <div class="sec-lg-head mb-80">
-                                <h6 class="dot-titl-non mb-15">Services</h6>
-                                <p>We help you to go online and increase your conversion rate Better design for your
-                                    digital products. </p>
+                                <h6 class="dot-titl-non mb-15">Automation: Empowering Developers and Operations</h6>
+                                <p>Automation is the heart of DevOps. From CI/CD pipelines to auto-scaling, automation streamlines workflows, reduces errors, and accelerates releases. </p>
                             </div>
                             <ul class="rest">
-                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> UI/UX Design</li>
-                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Branding</li>
-                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Development</li>
-                                <li class="item-link" data-tab="tabs-4"><span>04</span> Marketing</li>
+                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> Git</li>
+                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Docker</li>
+                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Jenkins</li>
+                                <li class="item-link mb-15" data-tab="tabs-4"><span>04</span> Terraform</li>
+                                <li class="item-link" data-tab="tabs-4"><span>05</span> Selenium</li>
                             </ul>
                         </div>
                     </div>
@@ -501,7 +498,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="sec-head mb-40">
-                            <h6 class="sub-title">FAQ.</h6>
+                            <h6 class="sub-title">Key Areas.</h6>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -509,48 +506,40 @@
                             <div class="text">
                                 <h2 class="d-slideup wow">
                                     <span class="sideup-text">
-                                        <span class="up-text">Watch the creative process</span>
+                                        <span class="up-text">Three must-know areas for DevOps</span>
                                     </span>
-                                    <span class="sideup-text">
-                                        <span class="up-text"><span>behind our digital marketing</span>.</span>
-                                    </span>
+                                
                                 </h2>
                             </div>
                             <div class="accordion bord mt-40">
 
                                 <div class="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                                     <div class="title">
-                                        <h6 class="fz-18">The Power of Influencer Marketing</h6>
+                                        <h6 class="fz-18">Continuous Integration/Continuous Delivery (CI/CD)</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">CI/CD is the backbone of DevOps. Understanding how to create automated pipelines for building, testing, and deploying applications is essential. This includes knowledge of tools like Jenkins, Git, and Docker.</p>
                                     </div>
                                 </div>
 
                                 <div class="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="title">
-                                        <h6 class="fz-18">Unique and Influential Design</h6>
+                                        <h6 class="fz-18">Infrastructure as Code (IaC)</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">IaC involves managing and provisioning infrastructure using code. Tools like Terraform and Ansible are crucial for automating infrastructure tasks, enabling efficient scaling and version control.</p>
                                     </div>
                                 </div>
 
                                 <div class="item wow fadeInUp" data-wow-delay=".5s">
                                     <div class="title">
-                                        <h6 class="fz-18">We Build and Activate Brands</h6>
+                                        <h6 class="fz-18">Monitoring and Observability</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">DevOps engineers should know how to monitor applications and infrastructure effectively. Tools like Prometheus and Grafana help collect and visualize data to identify issues proactively.</p>
                                     </div>
                                 </div>
 

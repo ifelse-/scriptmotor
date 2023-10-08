@@ -10202,4 +10202,17 @@ header.in-box {
   }
 }
 
+.sm-txt {
+  font-size: 18px;
+}
+
 /* ====================== [ End Responsive ] ====================== */
+
+
+/* ====================== [ Code Mirror ] ====================== */
+
+
+.cm-s-darcula span.cm-tag {
+    text-decoration: none !important;
+    color: #ffaa17 !important;
+}

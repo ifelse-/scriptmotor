@@ -5,6 +5,10 @@
     <!-- Title  -->
     <title>ScriptMotor</title>
     <?php include_once('includes/head.php') ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css" integrity="sha512-uf06llspW44/LZpHzHT6qBOIVODjWtv4MxCricRxkzvopAlSWnTf6hpZTFxuuZcuNE9CBQhqE0Seu1CoRk84nQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/darcula.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css">
+    
 </head>
 
 <body class="main-bg">
@@ -65,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="caption">
-                            <h6 class="sub-title">What Can We Do ?</h6>
-                            <h1 class="fz-55">We combine our passion for design and code.</h1>
+                            <h6 class="sub-title">What Can I Do ?</h6>
+                            <h1 class="fz-55">Building Strong Foundations: A Frontend Development Approach</h1>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 offset-lg-4">
                         <div class="text mt-30">
-                            <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+                            <p>As a frontend developer, I understand the importance of a solid structure. Learn how I architect web applications for stability and scalability while keeping the user experience at the forefront.</p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +140,7 @@
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
                             <div class="text">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit odit aut fugit, sed quia.</p>
+                                <p>Staying on top of the latest frontend technologies is my thing. From React and Vue.js to CSS Grid and animations, I leverage the best tools to create dynamic and interactive websites.</p>
                             </div>
                         </div>
                     </div>
@@ -208,7 +212,6 @@
         <!-- ==================== End Services ==================== -->
 
 
-
         <!-- ==================== Start Services ==================== -->
 
         <section class="portfolio-fixed">
@@ -224,16 +227,26 @@
                             </div>
                         </div>
                     </div>
+                
                     <div class="col-lg-6 sub-bg right">
                         <div class="cont active" data-tab="tab-1">
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">01. Digital</span>
-                            <h2 class="mb-30">Luxury Glassware.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">React Setup</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
+<textarea id="code-editor">
+<section>
+    <div class="container">
+        <h1>Example website</h1>
+        <p>This is just a HTML example</p>
+    </div>
+</section>
+</textarea>
+
                                     <ul class="rest list-arrow mt-30">
                                         <li>
                                             <span class="icon">
@@ -288,8 +301,8 @@
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/2.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">02. Marketing</span>
-                            <h2 class="mb-30">Brand Identity.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">Vue Setup</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
@@ -347,8 +360,8 @@
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/3.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">03. Design</span>
-                            <h2 class="mb-30">Roseville Pottery.</h2>
+                            <span class="sub-title mb-15">From Scratch</span>
+                            <h2 class="mb-30">File Structure</h2>
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
@@ -403,6 +416,8 @@
                             </div>
                         </div>
                     </div>
+
+                    
                 </div>
             </div>
         </section>
@@ -421,16 +436,14 @@
                             <div class="tab-content current" id="tabs-1">
                                 <div class="item">
                                     <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                        <img src="assets/imgs/code-screen.jpg" alt="">
                                     </div>
                                     <div class="cont sub-bg">
                                         <div class="icon-img-60 mb-40">
                                             <img src="assets/imgs/serv-icons/0.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
+                                            <p>Explore my portfolio to see the magic I've woven into each project. From elegant landing pages to complex web applications, my work speaks volumes about my frontend prowess.</p>
                                         </div>
                                         <a href="#0" class="mt-30">
                                             <span class="mr-15">Read More</span>
@@ -513,9 +526,10 @@
                             </div>
                             <ul class="rest">
                                 <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> UI/UX Design</li>
-                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Branding</li>
-                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Development</li>
-                                <li class="item-link" data-tab="tabs-4"><span>04</span> Marketing</li>
+                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Vue</li>
+                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> React</li>
+                                <li class="item-link mb-15" data-tab="tabs-4"><span>04</span> JavaScript</li>
+                                <li class="item-link" data-tab="tabs-4"><span>05</span> HTML & CSS</li>
                             </ul>
                         </div>
                     </div>
@@ -534,7 +548,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="sec-head mb-40">
-                            <h6 class="sub-title">FAQ.</h6>
+                            <h6 class="sub-title">Ensuring Seamless User Experiences.</h6>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -542,48 +556,40 @@
                             <div class="text">
                                 <h2 class="d-slideup wow">
                                     <span class="sideup-text">
-                                        <span class="up-text">Watch the creative process</span>
+                                        <span class="up-text">Three Must-Knows for Frontend Development</span>
                                     </span>
-                                    <span class="sideup-text">
-                                        <span class="up-text"><span>behind our digital marketing</span>.</span>
-                                    </span>
+                                    
                                 </h2>
                             </div>
                             <div class="accordion bord mt-40">
 
                                 <div class="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                                     <div class="title">
-                                        <h6 class="fz-18">The Power of Influencer Marketing</h6>
+                                        <h6 class="fz-18">Responsive Design: The Heart of User-Centricity</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">Responsive design is non-negotiable. Understanding how to create web applications that adapt seamlessly to various screen sizes is essential. Users expect a consistent experience whether they're on a phone, tablet, or desktop.</p>
                                     </div>
                                 </div>
 
                                 <div class="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="title">
-                                        <h6 class="fz-18">Unique and Influential Design</h6>
+                                        <h6 class="fz-18">Performance Optimization: Speed Matters</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">Performance is key. Slow-loading websites frustrate users and hurt your rankings. Dive into techniques like lazy loading, code splitting, and optimizing images to keep your web pages snappy.</p>
                                     </div>
                                 </div>
 
                                 <div class="item wow fadeInUp" data-wow-delay=".5s">
                                     <div class="title">
-                                        <h6 class="fz-18">We Build and Activate Brands</h6>
+                                        <h6 class="fz-18">Cross-Browser Compatibility: Make It Work Everywhere</h6>
                                         <span class="ico"></span>
                                     </div>
                                     <div class="accordion-info">
-                                        <p class="fz-14">Taken possession of my entire soul, like these sweet mornings
-                                            of spring which
-                                            i enjoy with my whole.</p>
+                                        <p class="fz-14">Frontend development is all about crafting beautiful, functional, and performant user interfaces. Testing ensures that your hard work pays off, delivering a top-notch experience to your users.</p>
                                     </div>
                                 </div>
 
@@ -633,8 +639,7 @@
     </section>
 
     <!-- ==================== End call to action ==================== -->
-
-
+    
 
     <!-- ==================== Start Footer ==================== -->
 
@@ -660,6 +665,21 @@
      <script src="assets/js/plugins.js"></script>
  
      <script src="assets/js/ScrollTrigger.min.js"></script>
+
+     <!-- code editor -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js" integrity="sha512-8RnEqURPUc5aqFEN04aQEiPlSAdE0jlFS/9iGgUyNtwFnSKCXhmB6ZTNl7LnDtDWKabJIASzXrzD0K+LYexU9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js" integrity="sha512-LarNmzVokUmcA7aUDtqZ6oTS+YXmUKzpGdm8DxC46A6AHu+PQiYCUlwEGWidjVYMo/QXZMFMIadZtrkfApYp/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <script>
+        const codeEditor = document.getElementById('code-editor');
+        const editor = CodeMirror.fromTextArea(codeEditor, {
+        mode: 'xml', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+     </script>
  
      <!-- custom scripts -->
      <script src="assets/js/scripts.js"></script>

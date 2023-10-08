@@ -144,7 +144,7 @@
                                 <div class="sec-lg-head">
                                     <h6 class="dot-titl-non mb-15 wow fadeIn">OUR BENEFITS</h6>
                                     <h2 class="d-rotate wow">
-                                        <span class="rotate-text">Welcome to My <br> Full Stack Journey <br> - ScriptMotor</span>
+                                        <span class="rotate-text">Welcome to My <br> Full Stack Journey <br> <span class="sm-txt">- Marvin Elmore</span>
                                     </h2>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                             <div class="col-lg-5 valign rest">
                                 <div class="cont">
                                     <h2 class="d-rotate wow">
-                                        <span class="rotate-text">Unlock Revenue Growth for Your Business.</span>
+                                        <span class="rotate-text">Streamlining Development:<br> My Fullstack Toolbox</span>
                                     </h2>
                                     <div class="feat mt-80">
                                         <div class="item-flex d-flex align-items-center mb-50 wow fadeInUp" data-wow-delay=".4s">
@@ -300,7 +300,7 @@
 
 
 
-                <!-- ==================== Start brands ==================== -->
+                <!-- ==================== Start brands ==================== 
 
                 <div class="clients-carso2">
                     <div class="container">
@@ -363,6 +363,7 @@
                         </div>
                     </div>
                 </div>
+                -->
 
                 <!-- ==================== End brands ==================== -->
 
