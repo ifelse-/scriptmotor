@@ -12,4 +12,12 @@ yarn add @types/cors helmet @types/hpp @types/cookie-session @types/compression 
 
 # Libraries
 yarn add nodemon
-yarn add --dev tsconfig-paths https://yarnpkg.com/package?name=tsconfig-paths
+yarn add --dev tsconfig-paths 
+https://yarnpkg.com/package?name=tsconfig-paths
+
+yarn add dotenv
+
+# Database
+# Make sure xcode is updated to the latest
+# Start mongodb on your machine
+yarn add mongoose
