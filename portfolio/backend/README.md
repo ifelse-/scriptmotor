@@ -17,6 +17,9 @@ https://yarnpkg.com/package?name=tsconfig-paths
 
 yarn add dotenv
 
+yarn add socket.io
+yarn add @socket.io/redis-adapter redis
+
 # Database
 # Make sure xcode is updated to the latest
 # Start mongodb on your machine
