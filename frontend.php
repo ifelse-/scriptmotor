@@ -5,15 +5,9 @@
     <!-- Title  -->
     <title>ScriptMotor</title>
     <?php include_once('includes/head.php') ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css" integrity="sha512-uf06llspW44/LZpHzHT6qBOIVODjWtv4MxCricRxkzvopAlSWnTf6hpZTFxuuZcuNE9CBQhqE0Seu1CoRk84nQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/darcula.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css">
-    
 </head>
 
 <body class="main-bg">
-
-
 
     <!-- ==================== Start Loading ==================== -->
 
@@ -95,7 +89,7 @@
                             <h4>React</h4>
                         </div>
                         <div class="item">
-                            <h4>Angular</h4>
+                            <h4>TypeScript</h4>
                         </div>
                         <div class="item">
                             <h4>HTML</h4>
@@ -239,13 +233,47 @@
                                 <div class="col-md-11">
                                     <p>We craft premium designs for agencies and global brands around the globe.</p>
 <textarea id="code-editor">
-<section>
-    <div class="container">
-        <h1>Example website</h1>
-        <p>This is just a HTML example</p>
-    </div>
-</section>
+import React, { Component } from 'react';
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      data: [], // To store the fetched data
+    };
+  }
+
+  componentDidMount() {
+    // Make an API call when the component mounts
+    fetch('https://api.example.com/data') // Replace with your API endpoint
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ data }); // Update the state with the fetched data
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>API Data:</h1>
+        <ul>
+          {this.state.data.map((item) => (
+            <li key={item.id}>{item.name}</li> // Adjust according to your API data structure
+          ))}
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default App;
 </textarea>
+
+
+
 
                                     <ul class="rest list-arrow mt-30">
                                         <li>
@@ -645,44 +673,9 @@
 
     <?php include_once('includes/footer.php') ?>
 
-
     <!-- ==================== End Footer ==================== -->
 
-
-
-
-
-
-
-
-
-
-     <!-- jQuery -->
-     <script src="assets/js/jquery-3.6.0.min.js"></script>
-     <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
- 
-     <!-- plugins -->
-     <script src="assets/js/plugins.js"></script>
- 
-     <script src="assets/js/ScrollTrigger.min.js"></script>
-
-     <!-- code editor -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js" integrity="sha512-8RnEqURPUc5aqFEN04aQEiPlSAdE0jlFS/9iGgUyNtwFnSKCXhmB6ZTNl7LnDtDWKabJIASzXrzD0K+LYexU9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js" integrity="sha512-LarNmzVokUmcA7aUDtqZ6oTS+YXmUKzpGdm8DxC46A6AHu+PQiYCUlwEGWidjVYMo/QXZMFMIadZtrkfApYp/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-     <script>
-        const codeEditor = document.getElementById('code-editor');
-        const editor = CodeMirror.fromTextArea(codeEditor, {
-        mode: 'xml', // Set the code mode (e.g., javascript, html, css)
-        htmlMode: true,
-        theme: 'darcula', // Choose a code theme
-        lineNumbers: true, // Display line numbers
-        });
-     </script>
- 
-     <!-- custom scripts -->
-     <script src="assets/js/scripts.js"></script>
+    <?php include_once('includes/scripts.php') ?>
 
 </body>
 
