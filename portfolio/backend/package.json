@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./build/index.js",
     "dev": "nodemon -r tsconfig-paths/register src/index.ts | ./node_modules/.bin/bunyan",
     "lint:check": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint 'src/**/*.ts' --fix",
     "prettier:check": "prettier --check 'src/**/*.{ts,json}'",
-    "prettier:fix": "prettier --write 'src/**/*.{ts,json}'"
+    "prettier:fix": "prettier --write 'src/**/*.{ts,json}'",
+    "build": "tspc -p ."
   },
   "license": "MIT",
   "dependencies": {
@@ -43,6 +45,7 @@
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
+    "ts-patch": "^3.0.0-beta3",
     "tsconfig-paths": "^4.2.0"
   }
 }

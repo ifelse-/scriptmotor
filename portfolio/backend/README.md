@@ -28,6 +28,7 @@ yarn add -D eslint-config-prettier prettier @typescript-eslint/eslint-plugin @ty
 https://editorconfig.org/ (Setup Docs)
 
 yarn add ttypescript typescript-transform-paths
+yarn add -D ts-patch@v3-beta
 
 # ESLINT
 npm install -g eslint
