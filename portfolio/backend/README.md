@@ -10,6 +10,7 @@ yarn add cors helmet hpp cookie-session compression express-async-errors http-st
 yarn add @types/express
 yarn add @types/cors helmet @types/hpp @types/cookie-session @types/compression express-async-errors http-status-code
 
+
 # Libraries
 yarn add nodemon
 yarn add --dev tsconfig-paths 
@@ -25,6 +26,8 @@ yarn add bunyan or yarn add @types/bunyan
 yarn add -D eslint-config-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 https://editorconfig.org/ (Setup Docs)
+
+yarn add ttypescript typescript-transform-paths
 
 # ESLINT
 npm install -g eslint

@@ -1,7 +1,7 @@
 import express, { Express } from 'express';
-import { AppServer } from './setupService';
-import databaseConnection from './setupDatabase';
-import { config } from './config';
+import { AppServer } from '@root/setupService';
+import databaseConnection from '@root/setupDatabase';
+import { config } from '@root/config';
 
 class Application {
   public initialize(): void {
