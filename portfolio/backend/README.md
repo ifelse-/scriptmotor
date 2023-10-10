@@ -22,6 +22,25 @@ yarn add @socket.io/redis-adapter redis
 
 yarn add bunyan or yarn add @types/bunyan
 
+yarn add -D eslint-config-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
+https://editorconfig.org/ (Setup Docs)
+
+# ESLINT
+npm install -g eslint
+npm init @eslint/config
+
+yarn run lint:check
+yarn run lint:fix
+yarn run prettier:check
+yarn run prettier:fix
+
+# VScode Extentions
+Prettier
+Eslint
+EditorConfig for VS Code
+
+
 # Database
 # Make sure xcode is updated to the latest
 # Start mongodb on your machine
