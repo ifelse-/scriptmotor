@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r tsconfig-paths/register src/index.ts"
+    "dev": "nodemon -r tsconfig-paths/register src/index.ts | ./node_modules/.bin/bunyan"
   },
   "license": "MIT",
   "dependencies": {
     "@socket.io/redis-adapter": "^8.2.1",
+    "@types/bunyan": "^1.8.9",
     "@types/compression": "^1.7.3",
     "@types/cookie-session": "^2.0.45",
     "@types/cors": "^2.8.14",
     "@types/hpp": "^0.2.3",
+    "bunyan": "^1.8.15",
     "compression": "^1.7.4",
     "cookie-session": "^2.0.0",
     "cors": "^2.8.5",

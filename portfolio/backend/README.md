@@ -20,6 +20,8 @@ yarn add dotenv
 yarn add socket.io
 yarn add @socket.io/redis-adapter redis
 
+yarn add bunyan or yarn add @types/bunyan
+
 # Database
 # Make sure xcode is updated to the latest
 # Start mongodb on your machine
