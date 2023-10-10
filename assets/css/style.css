@@ -7268,6 +7268,11 @@ body.inter-center {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.serv-box .serv-item:hover {
+  border: 5px solid #fff;
+  margin: -4px;
+}
+
 .serv-box .serv-item .arrow svg {
   height: 25px;
   fill: #1d1d1d;

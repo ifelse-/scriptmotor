@@ -35,6 +35,8 @@ yarn run lint:fix
 yarn run prettier:check
 yarn run prettier:fix
 
+https://www.toptal.com/developers/gitignore/api/node
+
 # VScode Extentions
 Prettier
 Eslint

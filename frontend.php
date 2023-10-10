@@ -543,6 +543,52 @@ export default App;
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="tab-content" id="tabs-5">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont sub-bg">
+                                        <div class="icon-img-60 mb-40">
+                                            <img src="assets/imgs/serv-icons/0.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <p>We are a creative studio specializing in design,
+                                                development and strategy many different skills and disciplines in the
+                                                production of all web.</p>
+                                        </div>
+                                        <a href="#0" class="mt-30">
+                                            <span class="mr-15">Read More</span>
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content" id="tabs-6">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont sub-bg">
+                                        <div class="icon-img-60 mb-40">
+                                            <img src="assets/imgs/serv-icons/0.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <p>We are a creative studio specializing in design,
+                                                development and strategy many different skills and disciplines in the
+                                                production of all web.</p>
+                                        </div>
+                                        <a href="#0" class="mt-30">
+                                            <span class="mr-15">Read More</span>
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 valign order1">
@@ -557,7 +603,8 @@ export default App;
                                 <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Vue</li>
                                 <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> React</li>
                                 <li class="item-link mb-15" data-tab="tabs-4"><span>04</span> JavaScript</li>
-                                <li class="item-link" data-tab="tabs-4"><span>05</span> HTML & CSS</li>
+                                <li class="item-link mb-15" data-tab="tabs-5"><span>05</span> TypeScript</li>
+                                <li class="item-link" data-tab="tabs-6"><span>06</span> HTML & CSS</li>
                             </ul>
                         </div>
                     </div>
