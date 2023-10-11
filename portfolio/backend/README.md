@@ -30,6 +30,8 @@ https://editorconfig.org/ (Setup Docs)
 yarn add ttypescript typescript-transform-paths
 yarn add -D ts-patch@v3-beta
 
+yarn add @bull-board/express
+
 # ESLINT
 npm install -g eslint
 npm init @eslint/config
