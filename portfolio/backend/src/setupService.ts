@@ -22,9 +22,9 @@ import { config } from '@root/config';
 import applicationRoutes from '@root/routes';
 import { CustomError, IErrorResponse } from '@global/helpers/error-handler';
 
-
 const SERVER_PORT = 5000;
 const log: Logger = config.createLogger('server');
+const cookieMaxage = 24 * 7 * 3600000;
 
 export class AppServer {
   private app: Application;
@@ -47,7 +47,7 @@ export class AppServer {
       cookieSession({
         name: 'session',
         keys: [config.SECRET_KEY_ONE!, config.SECRET_KEY_TWO!],
-        maxAge: 24 * 7 * 3600000,
+        maxAge: cookieMaxage,
         secure: config.NODE_ENV !== 'development',
       }),
     );
@@ -128,6 +128,7 @@ export class AppServer {
     });
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   private socketIOConnections(io: Server): void {
     log.info('socketIOConnections');
   }
