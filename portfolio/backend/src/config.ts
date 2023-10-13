@@ -16,7 +16,8 @@ class Config {
   public CLOUD_API_KEY: string | undefined;
   public CLOUD_API_SECRET: string | undefined;
 
-  private readonly DEFULT_DATABASE_URL = 'mongodb://localhost:27017/scriptmotor-backend';
+  private readonly DEFULT_DATABASE_URL =
+    'mongodb://localhost:27017/scriptmotor-backend';
 
   constructor() {
     this.DATABASE_URL = process.env.DATABASE_URL || this.DEFULT_DATABASE_URL;
@@ -45,9 +46,9 @@ class Config {
 
   public cloudinaryConfig(): void {
     cloudinary.v2.config({
-       cloud_name: this.CLOUD_NAME,
-       api_key: this.CLOUD_API_KEY,
-       api_secret: this.CLOUD_API_SECRET
+      cloud_name: this.CLOUD_NAME,
+      api_key: this.CLOUD_API_KEY,
+      api_secret: this.CLOUD_API_SECRET,
     });
   }
 }
