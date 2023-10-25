@@ -65,7 +65,7 @@
                 <div class="col-lg-7">
                     <div class="caption">
                         <h6 class="fw-400 mb-15">Hello <span class="icon-img-30"><img
-                                    src="assets/imgs/svg-assets/hi.png" alt=""></span> , I'm Chadwick Boseman.</h6>
+                                    src="assets/imgs/svg-assets/hi.png" alt=""></span> , I'm Marvin Elmore.</h6>
                         <h1 class="fz-60">A Visual Designer Specializing in UI & UX</h1>
                         <div class="row mt-50">
                             <div class="col-lg-3 cal-act order2">
@@ -712,7 +712,7 @@
                             <p class="fz-15 mt-10">If you would like to work with us or just want to get in
                                 touch, we’d love to hear from you!</p>
                             <div class="phone fz-30 fw-600 mt-30 underline">
-                                <a href="#0">+1 840 841 25 69</a>
+                                <a href="#0">(845) 859-0480</a>
                             </div>
                             <ul class="rest social-text d-flex mt-60">
                                 <li class="mr-30">

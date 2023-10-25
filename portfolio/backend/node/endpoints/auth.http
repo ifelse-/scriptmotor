@@ -1,0 +1,73 @@
+
+@baseURL = http://localhost:5000
+@urlPath = api/v1
+
+
+############################
+# Create new user account
+############################
+###
+POST {{baseURL}}/{{urlPath}}/signup
+Content-Type: application/json
+Accept: application/json
+withCreditials: true
+
+{
+  "username": "John",
+  "password": "123456",
+  "email": "john@test.com",
+  "avatarColor": "blue",
+  "avatarImage": "https://gratisography.com/wp-content/uploads/2023/05/gratisography-retro-boss-cat-free-stock-photo-1170x780.jpg"
+}
+
+
+############################
+# Sign Out
+############################
+###
+POST {{baseURL}}/{{urlPath}}/signout
+Content-Type: application/json
+Accept: application/json
+withCreditials: true
+
+{
+  "username": "John",
+  "password": "123456"
+}
+
+
+############################
+# Sign In User
+############################
+###
+POST {{baseURL}}/{{urlPath}}/signin
+Content-Type: application/json
+Accept: application/json
+withCreditials: true
+
+{
+  "username": "John",
+  "password": "123456"
+}
+
+
+############################
+# Get current user
+############################
+###
+POST {{baseURL}}/{{urlPath}}/currentuser
+Content-Type: application/json
+Accept: application/json
+withCreditials: true
+
+{
+  "username": "John",
+  "password": "123456"
+}
+
+
+
+
+
+
+

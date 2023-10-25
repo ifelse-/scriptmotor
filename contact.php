@@ -93,7 +93,7 @@
                             <p class="fz-15 mt-10">If you would like to work with us or just want to get in
                                 touch, we’d love to hear from you!</p>
                             <div class="phone fz-30 fw-600 mt-30 underline">
-                                <a href="#0">+1 840 841 25 69</a>
+                                <a href="#0">(845) 859-0480</a>
                             </div>
                             <ul class="rest social-text d-flex mt-60">
                                 <li class="mr-30">

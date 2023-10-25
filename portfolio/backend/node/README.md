@@ -1,5 +1,8 @@
 # Installs
 
+# Redis Commander
+Run: redis-commander
+
 # You need to use node 16+
 nvm install 16.17.0
 
@@ -39,3 +42,7 @@ http://localhost:5000/queues/queue/auth
 
 MongoDB Compass
 https://www.mongodb.com/try/download/compass
+
+
+# Data
+https://ethereal.email/

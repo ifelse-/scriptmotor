@@ -32,10 +32,10 @@
                                     </div>
                                     <div class="text">
                                         <p class="mb-10">
-                                            <a href="#0">hello@design.com</a>
+                                            <a href="#0">marvin@giveme5ive.com</a>
                                         </p>
                                         <h5>
-                                            <a href="#">+1 840 841 25 69</a>
+                                            <a href="#">(845) 859-0480</a>
                                         </h5>
                                     </div>
                                 </div>

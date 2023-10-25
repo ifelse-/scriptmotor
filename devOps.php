@@ -130,7 +130,7 @@
                         <div class="col-lg-8">
                             <div class="position-re">
                                 <h6 class="dot-titl-non mb-10">Dev Ops</h6>
-                                <h2 class="fz-60 fw-700">Deployments</h2>
+                                <h2 class="fz-60 fw-700">Serverless & Microservices</h2>
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
@@ -146,7 +146,7 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/0.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom">AWS <br> Social Media App</h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Deployment <br> AWS Klusters</h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/1.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom">UX/UI Design & <br> Website/App Design</h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Deployment <br> GKE Klusters</h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
@@ -164,10 +164,34 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/2.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom">Typography & <br> Video Production</h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Deployment <br> Github Pages</h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
+                </div>
+
+                <div class="row mt-40">
+                    <div class="col-lg-4">
+                        <div class="serv-item md-mb50 radius-10">
+                            <div class="icon-img-60 mb-40">
+                                <img src="assets/imgs/serv-icons/0.png" alt="">
+                            </div>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Selenium E2E</br>Auth Frontend</h5>
+                            <p>Creating a higher spacing and how people move through a unique.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="serv-item md-mb50 radius-10">
+                            <div class="icon-img-60 mb-40">
+                                <img src="assets/imgs/serv-icons/0.png" alt="">
+                            </div>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Generate Fake Data</br>Fake test data</h5>
+                            <p>Creating a higher spacing and how people move through a unique.</p>
+                        </div>
+                    </div>
+                   
+                    
                 </div>
             </div>
         </section>
@@ -181,59 +205,47 @@
         <section class="portfolio-fixed">
             <div class="container-fluid rest">
                 <div class="row">
-                    <div class="col-lg-6 rest">
-                        <div class="left" id="sticky_item">
-                            <div id="tab-1" class="img bg-img" data-background="assets/imgs/portfolio/gallery/1.jpg">
-                            </div>
-                            <div id="tab-2" class="img bg-img" data-background="assets/imgs/portfolio/gallery/2.jpg">
-                            </div>
-                            <div id="tab-3" class="img bg-img" data-background="assets/imgs/portfolio/gallery/3.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 sub-bg right">
-                        <div class="cont active" data-tab="tab-1">
+                    <div class="col-lg-12 sub-bg right">
+                        <p class="mb-10">In practice, these tools can complement each other. For example, you can use a Makefile to orchestrate the build process of a project, use Bash scripts for tasks like environment setup, and deploy the resulting application using Docker containers. The choice between them depends on the specific needs of your project and the level of automation and isolation </p>
+                        <div class="cont code-snippet active" data-tab="tab-1">
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Docker Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Makefile</h2>
+
+                                    <p class="mb-20">You can use a Makefile to orchestrate the build process of a project with a React frontend, Node.js backend, and Python backend, and create a make start target for starting your project. </p>
+                                    <textarea id="code-editor-makefile">
+                                    <?php include('includes/codemirror/makefile-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">In this Makefile:
+                                            </h6>
+                                            <ol>
+                                                <li>REACT_BUILD, NODE_START, and PYTHON_START define the build and start commands for each component.</li>
+                                                <li>The all target combines the build and start process. </li>
+                                                <li>The build target builds the React frontend.</li>
+                                                <li>The start target starts both the Node.js and Python backends.</li>
+                                                <li>start-node and start-python start each backend separately.</li>
+                                                <li>The clean target can be used for cleaning up.</li>
+                                            </ol>   
+
+                                            <h6 class="inline fz-16 fw-400">To use this Makefile:
+                                            </h6>
+                                            <ol>
+                                                <li>Place it in your project's root directory.</li>
+                                                <li>In the frontend directory, ensure you have a package.json with build scripts. </li>
+                                                <li>In the backend directory, have your Node.js and Python server scripts (server.js and app.py, for example).</li>
+                                                <li>Run make to build and start all components.</li>
+                                                <li>Run make start to start both backends.</li>
+                                                <li>Run make clean to clean up generated files (you can add appropriate clean commands in the Makefile).</li>
+                                            </ol>   
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -253,48 +265,31 @@
                         </div>
                         <div class="cont" data-tab="tab-2">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/2.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">AWS Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">setup-environment.sh</span>
+                                    <h2>Bash Setup Env</h2>
+
+                                    <p class="mb-20"> This script sets up the development environment for the project. You can use it to install dependencies for both the Node.js and Python backends and the React frontend.</p>
+                                   
+                                    <img class="bash-dir-img" src="assets/imgs/dir.png" alt="">
+                                   
+                                    <textarea id="code-editor-bash">
+                                    <?php include('includes/codemirror/bash-snippet.php') ?>
+                                    </textarea>
+                                    <!---->
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400"><strong>clean-environment.sh:</strong> This script can be used to clean up your project, e.g., removing generated files, stopping running processes, or cleaning up dependencies. Customize it as per your needs.</h6>
+                                           
                                         </li>
                                     </ul>
+
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
                                         <div class="full-width">
                                             <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -310,48 +305,74 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cont" data-tab="tab-3">
+                        <div class="cont code-snippet" data-tab="tab-3">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/3.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Jenkins Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Dockerize</h2>
+
+                                    <p class="mb-20">To deploy a full-stack web application with React frontend, Node.js backend, and Python backend using Docker containers and host it on AWS, you can follow these steps and create the necessary Docker and deployment scripts</p>
+                                    
+                                    <h3>Prepare Your Application</h3>
+                                    <p>Make sure your web application is structured with separate directories for the frontend (React), Node.js backend, and Python backend. You should also have your AWS credentials configured for deployment.</p>
+                                    <h3>Dockerize Each Component</h3>
+
+                                    <strong>React Frontend:</strong>
+                                        <ul>
+                                            <li>Create a Dockerfile in the React frontend directory.</li>
+                                            <li>Use a base Node.js image.</li>
+                                            <li>Copy the frontend code into the container.</li>
+                                            <li>Build the React app within the Dockerfile.</li>
+                                        </ul>
+                                    </p>
+                                    <textarea id="code-editor-docker">
+                                    <?php include('includes/codemirror/docker-snippet.php') ?>
+                                    </textarea>
+                                    
+                                    <h3 class="mt-20">Node.js Backend</h3>
+                                    <p>
+                                        <ul>
+                                            <li>Create a Dockerfile in the Node.js backend directory.</li>
+                                            <li>Use a base Node.js image.</li>
+                                            <li>Copy the backend code into the container.</li>
+                                            <li>Set the start command for your Node.js app.</li>
+                                        </ul>
+                                    </p>
+                                   
+                                    <textarea id="code-editor-docker1">
+                                    <?php include('includes/codemirror/docker-snippet1.php') ?>
+                                    </textarea>
+                                    
+                                    <h3 class="mt-20">Python Backend</h3>
+                                    <p>
+                                        <ul>
+                                            <li>Create a Dockerfile in the Python backend directory.</li>
+                                            <li>Use a base Python image.</li>
+                                            <li>Copy the backend code into the container.</li>
+                                            <li>Set the start command for your Python app.</li>
+                                        </ul>
+                                    </p>
+                                    <textarea id="code-editor-docker2">
+                                    <?php include('includes/codemirror/docker-snippet2.php') ?>
+                                    </textarea>
+                                    <h3 class="mt-20">Docker Compose</h3>
+                                    <p>
+                                        <ul>
+                                            <li>Create a docker-compose.yml file in your project's root directory to define the services, including React, Node.js, and Python backends, and any database services you might need.</li>
+                                        </ul>
+                                    </p>
+                                    <textarea id="code-editor-docker3">
+                                    <?php include('includes/codemirror/docker-snippet3.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h3>AWS Setup below</h3>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -384,6 +405,9 @@
             <div class="container">
                 <div class="row" id="tabs">
                     <div class="col-lg-6 order2">
+                    <h3>AWS Deployment</h3>
+                    <p>Automation is the heart of DevOps. From CI/CD pipelines to auto-scaling, automation streamlines workflows, reduces errors, and accelerates releases. </p>
+
                         <div class="serv-tab-cont mb-80">
                             <div class="tab-content current" id="tabs-1">
                                 <div class="item">
@@ -395,7 +419,12 @@
                                             <img src="assets/imgs/serv-icons/0.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>Git is a distributed version control system widely used for source code management and collaboration.</p>
+                                        <ul class="show-dots">
+                                        <li>Configure your AWS environment, including setting up an EC2 instance, security groups, and key pairs.</li>
+                                        <li>Upload your Docker images to a container registry like Amazon Elastic Container Registry (ECR).</li>
+                                        <li>Create a task definition and a service in Amazon ECS to run your containers on AWS.</li>
+                                        <li>Set up an Application Load Balancer (ALB) to route traffic to the ECS service.</li>
+                                        <ul>
                                         </div>
                                       
                                     </div>
@@ -411,7 +440,7 @@
                                             <img src="assets/imgs/serv-icons/1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>Docker is a containerization platform that allows you to package applications and their dependencies into containers for easy deployment and scalability.</p>
+                                        <p>Deploy your application to AWS by creating a cluster with your ECS service. </p>
                                         </div>
                                       
                                     </div>
@@ -427,59 +456,28 @@
                                             <img src="assets/imgs/serv-icons/2.png" alt="">
                                         </div>
                                         <div class="text">
-                                            <p>Jenkins is a popular open-source automation server that facilitates continuous integration and continuous delivery (CI/CD) pipelines.</p>
+                                        <p>After deploying, access your application through the public IP or domain of the AWS ALB. </p>
                                         </div>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-content" id="tabs-4">
-                                <div class="item">
-                                    <div class="img">
-                                    <img class="rotate-circle" src="assets/imgs/dev-flow.png" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>Terraform is an infrastructure as code (IaC) tool for provisioning and managing infrastructure resources across multiple cloud providers.</p>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                            </div>
+                    
 
-                            <div class="tab-content" id="tabs-5">
-                                <div class="item">
-                                    <div class="img">
-                                    <img src="assets/imgs/dev-flow.png" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>Selenium is an open-source testing framework for web applications. It allows you to automate browser actions and perform functional testing across different browsers and platforms.</p>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                            </div>
+               
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 valign order1">
                         <div class="serv-tab-link tab-links full-width md-mb50">
                             <div class="sec-lg-head mb-80">
                                 <h6 class="dot-titl-non mb-15">Automation: Empowering Developers and Operations</h6>
-                                <p>Automation is the heart of DevOps. From CI/CD pipelines to auto-scaling, automation streamlines workflows, reduces errors, and accelerates releases. </p>
+                                <p>These steps provide a high-level overview of deploying a full-stack application using Docker containers and hosting it on AWS. Depending on your specific requirements and AWS setup, additional configurations and optimizations may be needed.</p>
                             </div>
                             <ul class="rest">
-                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> Git</li>
-                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Docker</li>
-                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Jenkins</li>
-                                <li class="item-link mb-15" data-tab="tabs-4"><span>04</span> Terraform</li>
-                                <li class="item-link" data-tab="tabs-4"><span>05</span> Selenium</li>
+                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> AWS Deployment </li>
+                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Deploy the Application</li>
+                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Access the Deployed Application</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -599,26 +597,75 @@
 
     <!-- ==================== End Footer ==================== -->
 
+    <?php include_once('includes/scripts.php') ?>
 
-
-
-
-
-
-
-
-
-     <!-- jQuery -->
-     <script src="assets/js/jquery-3.6.0.min.js"></script>
-     <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
  
-     <!-- plugins -->
-     <script src="assets/js/plugins.js"></script>
- 
-     <script src="assets/js/ScrollTrigger.min.js"></script>
- 
-     <!-- custom scripts -->
-     <script src="assets/js/scripts.js"></script>
+    <script>
+        const codeEditorMakeFile = document.getElementById('code-editor-makefile');
+        const editorMakeFile = CodeMirror.fromTextArea(codeEditorMakeFile, {
+        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+        editorMakeFile.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+     </script>
+
+    <script>
+            const codeEditorBash = document.getElementById('code-editor-bash');
+            const editorBash = CodeMirror.fromTextArea(codeEditorBash, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorBash.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script>     
+
+    <script>
+            const codeEditorDocker = document.getElementById('code-editor-docker');
+            const editorDocker = CodeMirror.fromTextArea(codeEditorDocker, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorDocker.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script> 
+        
+        <script>
+            const codeEditorDocker1 = document.getElementById('code-editor-docker1');
+            const editorDocker1 = CodeMirror.fromTextArea(codeEditorDocker1, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorDocker1.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script> 
+        
+        
+        <script>
+            const codeEditorDocker2 = document.getElementById('code-editor-docker2');
+            const editorDocker2 = CodeMirror.fromTextArea(codeEditorDocker2, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorDocker2.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script> 
+
+        <script>
+            const codeEditorDocker3 = document.getElementById('code-editor-docker3');
+            const editorDocker3 = CodeMirror.fromTextArea(codeEditorDocker3, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorDocker3.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script> 
 
 </body>
 

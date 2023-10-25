@@ -131,7 +131,7 @@
                         <div class="col-lg-8">
                             <div class="position-re">
                                 <h6 class="dot-titl-non mb-10">Real World</h6>
-                                <h2 class="fz-60 fw-700">Backend Modules</h2>
+                                <h2 class="fz-60 fw-700">Modules and Databases</h2>
                             </div>
                         </div>
                         <div class="col-lg-4 d-flex align-items-center">
@@ -147,7 +147,7 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/0.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom">Mongoose DB <br> Social Media App</h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Node.js <br> Authorization Service</h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/1.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom">UX/UI Design & <br> Website/App Design</h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom">Vue.js <br> User Profile Service</h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
@@ -286,7 +286,7 @@
                                                 </span>
                                             </div>
                                             <div>
-                                                <h5>NestJS (Node)</h5>
+                                                <h5>Lambda</h5>
                                             </div>
                                             <div class="ml-auto">
                                                 <div class="arrow">
@@ -338,7 +338,7 @@
                                                 </span>
                                             </div>
                                             <div>
-                                                <h5>Elasticsearch</h5>
+                                                <h5>Redis</h5>
                                             </div>
                                             <div class="ml-auto">
                                                 <div class="arrow">
@@ -372,59 +372,31 @@
         <section class="portfolio-fixed">
             <div class="container-fluid rest">
                 <div class="row">
-                    <div class="col-lg-6 rest">
-                        <div class="left" id="sticky_item">
-                            <div id="tab-1" class="img bg-img" data-background="assets/imgs/portfolio/gallery/1.jpg">
-                            </div>
-                            <div id="tab-2" class="img bg-img" data-background="assets/imgs/portfolio/gallery/2.jpg">
-                            </div>
-                            <div id="tab-3" class="img bg-img" data-background="assets/imgs/portfolio/gallery/3.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 sub-bg right">
-                        <div class="cont active" data-tab="tab-1">
+                    <div class="col-lg-12 sub-bg right">
+                        <div class="cont code-snippet active" data-tab="tab-1">
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Node Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Node Express</h2>
+
+                                    <p class="mb-20">Below is an example of a simple Node.js and Express API with comments explaining the code</p>
+                                    <textarea id="code-editor-node">
+                                    <?php include('includes/codemirror/node-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">This code sets up a basic Node.js and Express API with two routes:
+                                            </h6>
+                                            <ol>
+                                                <li>GET /api/comments: This route returns all comments in the comments array.</li>
+                                                <li>POST /api/comments: This route allows you to add a new comment to the comments </li>
+                                            </ol>   
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -444,46 +416,28 @@
                         </div>
                         <div class="cont" data-tab="tab-2">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/2.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Pyton Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Python</h2>
+
+                                    <p class="mb-20"> Below is a Python script that demonstrates a simple API using the Flask framework.</p>
+                                    <textarea id="code-editor-python">
+                                    <?php include('includes/codemirror/python-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">This script sets up a basic Flask application with three routes:</h6>
+                                            <ol>
+                                                <li>/api/data for getting all data (GET request).</li>
+                                                <li>/api/data/<int:id> for getting data by ID (GET request).</li>
+                                                <li>/api/data for adding new data (POST request).</li>
+                                            </ol>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -501,48 +455,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cont" data-tab="tab-3">
+                        <div class="cont code-snippet" data-tab="tab-3">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/3.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Php Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Php</h2>
+
+                                    <p class="mb-20">Here's an example of a simple PHP API</p>
+                                    <textarea id="code-editor-php">
+                                    <?php include('includes/codemirror/php-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">In this code</h6>
+                                            <ul>
+                                                <li>We define an array named $data to store data.</li>
+                                                <li>We have two routes: one for GET requests and another for POST requests.</li>
+                                                <li>For GET requests, we check if the endpoint parameter is set to 'data' and return the data stored in the $data array.</li>
+                                                <li>For POST requests, we check if the endpoint parameter is set to 'data' and add the new data to the $data array.</li>
+                                            </ul>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -786,27 +723,41 @@
 
     <!-- ==================== End Footer ==================== -->
 
+    <?php include_once('includes/scripts.php') ?>
 
-
-
-
-
-
-
-
-
-     <!-- jQuery -->
-     <script src="assets/js/jquery-3.6.0.min.js"></script>
-     <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
  
-     <!-- plugins -->
-     <script src="assets/js/plugins.js"></script>
- 
-     <script src="assets/js/ScrollTrigger.min.js"></script>
- 
-     <!-- custom scripts -->
-     <script src="assets/js/scripts.js"></script>
+    <script>
+        const codeEditorNode = document.getElementById('code-editor-node');
+        const editorNode = CodeMirror.fromTextArea(codeEditorNode, {
+        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+        editorNode.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+     </script>
 
+    <script>
+            const codeEditorPython = document.getElementById('code-editor-python');
+            const editorPython = CodeMirror.fromTextArea(codeEditorPython, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorPython.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script>     
+
+    <script>
+            const codeEditorPhp = document.getElementById('code-editor-php');
+            const editorPhp = CodeMirror.fromTextArea(codeEditorPhp, {
+            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+            htmlMode: true,
+            theme: 'darcula', // Choose a code theme
+            lineNumbers: true, // Display line numbers
+            });
+            editorPhp.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        </script>   
 </body>
 
 </html>

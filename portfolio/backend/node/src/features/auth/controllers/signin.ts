@@ -9,6 +9,9 @@ import { loginSchema } from '@auth/schemes/signin';
 import { IAuthDocument } from '@auth/interfaces/auth.interface';
 import { IUserDocument } from '@user/interfaces/user.interface';
 import { userService } from '@service/db/user.service';
+import { forgotPasswordTemplate } from '@service/emails/templates/forgot-password/forgot-password-template';
+import { emailQueue } from '@service/queues/email.queue';
+import { mailTransport } from '@service/emails/mail.transport';
 
 export class SignIn {
   @joiValidation(loginSchema)
@@ -40,6 +43,10 @@ export class SignIn {
       },
       config.JWT_TOKEN!,
     );
+    await mailTransport.sendEmail('ahmed.miller@ethereal.email', 'Testing Development email', 'This is a test to see if development send email works.');
+    // const resetLink = `${config.CLIENT_URL}/reset-password?token=1234556546645`;
+    //const template: string = forgotPasswordTemplate.passwordResetTemplate(existingUser.username!, resetLink);
+    // emailQueue.addEmailJob('forgotPasswordEmail', { template, receiverEmail: 'ahmed.miller@ethereal.email', subject: 'Reset your password'});
     req.session = { jwt: userJwt };
     const userDocument: IUserDocument = {
       // ...user,

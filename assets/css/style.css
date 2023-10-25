@@ -1415,6 +1415,10 @@ img.left {
   padding: 120px 0;
 }
 
+.blog-crev.section-padding img {
+   width: 75%;
+}
+
 .section-ptb {
   padding: 80px 0;
 }
@@ -4837,6 +4841,7 @@ body.loaded {
 
 .blog-crev .item .img {
   position: relative;
+  text-align: center;
 }
 
 .blog-crev .item .img a {
@@ -4983,12 +4988,11 @@ body.loaded {
 }
 
 .main-post .iner-img {
-  height: 400px;
+  text-align: center;
 }
 
 .main-post .iner-img img {
-  width: 100%;
-  height: 100%;
+  width: 30%;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
@@ -6339,13 +6343,13 @@ footer .bg-pattern {
 }
 
 .portfolio-fixed .right {
-  padding: 250px 100px;
+  padding: 80px 100px;
   overflow: hidden;
 }
 
 .portfolio-fixed .cont {
   margin-bottom: 250px;
-  opacity: .1;
+  /*opacity: .1;*/
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
@@ -7365,7 +7369,7 @@ body.inter-center {
 }
 
 .services-tab .serv-tab-link .item-link {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -8369,6 +8373,12 @@ header.in-box {
   height: 100%;
   text-align: center;
 }
+
+.author-info img.rotate-circle {
+  width: 50px;
+  margin-top: -10px;
+}
+
 
 .testim-clasic .item .author-info .arrow {
   position: absolute;
@@ -10220,4 +10230,33 @@ header.in-box {
 .cm-s-darcula span.cm-tag {
     text-decoration: none !important;
     color: #ffaa17 !important;
+}
+
+
+.code-snippet {
+  background-color: #353535;
+  color: #fff;
+  padding: 40px 10px 30px 10px;
+  border-radius: 20px;
+}
+
+.setup-section {
+  width: 100px;
+}
+
+.bash-dir-img {
+  width: 600px;
+  margin-bottom: 10px;
+}
+
+.show-dots li {
+  list-style: disc;
+}
+
+.pin-spacer {
+  display: none !important;
+}
+
+.bold {
+  font-weight: bold;
 }

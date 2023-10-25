@@ -17,7 +17,7 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="freelancer.php"><span class="rolling-text">Freelancer</span></a>
+                            <a class="nav-link" href="project-manager.php"><span class="rolling-text">Project Management</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="frontend.php"><span class="rolling-text">Frontend</span></a>
@@ -28,7 +28,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="devops.php"><span class="rolling-text">DevOps</span></a>
                         </li>
-<!--
+
+ <!--                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="techtalk.php"><span class="rolling-text">Tech Talk</span></a>
+                        </li>
+
+
                         <li class="nav-item">
                             <a class="nav-link" href="devops.php"><span class="rolling-text">Blog</span></a>
                         </li>

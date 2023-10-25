@@ -128,7 +128,7 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="position-re">
-                                <h6 class="dot-titl-non mb-10">Real World</h6>
+                                <h6 class="dot-titl-non mb-10">Real World Cases</h6>
                                 <h2 class="fz-60 fw-700">Applications</h2>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <div class="icon-img-60 mb-40">
                                 <img src="assets/imgs/serv-icons/0.png" alt="">
                             </div>
-                            <h5 class="mb-30 pb-30 bord-thin-bottom"><a href="portfolio.php">React.js <span class="small-copy-txt">v 18.2.0</span>  </br> Social Media App</a></h5>
+                            <h5 class="mb-30 pb-30 bord-thin-bottom"><a href="portfolio.php">React.js <span class="small-copy-txt">v 18.2.0</span>  </br> Auth Service</a></h5>
                             <p>Creating a higher spacing and how people move through a unique.</p>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                     
-            </div>
+                </div>
         </section>
 
         <!-- ==================== End Services ==================== -->
@@ -211,103 +211,27 @@
         <section class="portfolio-fixed">
             <div class="container-fluid rest">
                 <div class="row">
-                    <div class="col-lg-6 rest">
-                        <div class="left" id="sticky_item">
-                            <div id="tab-1" class="img bg-img" data-background="assets/imgs/portfolio/gallery/1.jpg">
-                            </div>
-                            <div id="tab-2" class="img bg-img" data-background="assets/imgs/portfolio/gallery/2.jpg">
-                            </div>
-                            <div id="tab-3" class="img bg-img" data-background="assets/imgs/portfolio/gallery/3.jpg">
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-lg-6 sub-bg right">
-                        <div class="cont active" data-tab="tab-1">
+                   
+                    <div class="col-lg-12 sub-bg right">
+                        <div class="cont code-snippet active" data-tab="tab-1">
                             <div class="img-hiden">
                                 <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">React Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
-<textarea id="code-editor">
-import React, { Component } from 'react';
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: [], // To store the fetched data
-    };
-  }
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>React </h2>
 
-  componentDidMount() {
-    // Make an API call when the component mounts
-    fetch('https://api.example.com/data') // Replace with your API endpoint
-      .then((response) => response.json())
-      .then((data) => {
-        this.setState({ data }); // Update the state with the fetched data
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>API Data:</h1>
-        <ul>
-          {this.state.data.map((item) => (
-            <li key={item.id}>{item.name}</li> // Adjust according to your API data structure
-          ))}
-        </ul>
-      </div>
-    );
-  }
-}
-
-export default App;
-</textarea>
-
-
-
-
+                                    <p class="mb-20">Below is an example of how you can create a React component to perform GET and POST API requests using the Axios library. Axios is a popular library for making HTTP requests in JavaScript and is commonly used with React applications.</p>
+                                    <textarea id="code-editor-react">
+                                    <?php include('includes/codemirror/react-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">This component, ApiExample, demonstrates how to make GET and POST API requests. Replace the API endpoints and data with your own. The fetched data is stored in the data state variable and displayed on the component.</h6>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -327,46 +251,23 @@ export default App;
                         </div>
                         <div class="cont" data-tab="tab-2">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/2.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">Vue Setup</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Vue3</h2>
+
+                                    <p class="mb-20">Below is a Vue 3 component that demonstrates how to perform GET and POST API requests using the Axios library.</p>
+                                    <textarea id="code-editor-vue">
+                                    <?php include('includes/codemirror/vue-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">This Vue 3 component provides buttons to trigger GET and POST requests, and it displays the fetched data. </h6>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -384,48 +285,25 @@ export default App;
                                 </div>
                             </div>
                         </div>
-                        <div class="cont" data-tab="tab-3">
+                        <div class="cont code-snippet" data-tab="tab-3">
                             <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/3.jpg" alt="">
+                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
                             </div>
-                            <span class="sub-title mb-15">From Scratch</span>
-                            <h2 class="mb-30">File Structure</h2>
+                          
                             <div class="row justify-content-center">
                                 <div class="col-md-11">
-                                    <p>We craft premium designs for agencies and global brands around the globe.</p>
+                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                    <span class="sub-title">From Scratch</span>
+                                    <h2>Angular</h2>
+
+                                    <p class="mb-20">Below is an example of an Angular component that demonstrates how to perform GET and POST API requests using Angular's HttpClient.</p>
+                                    <textarea id="code-editor-augular">
+                                    <?php include('includes/codemirror/angular-snippet.php') ?>
+                                    </textarea>
                                     <ul class="rest list-arrow mt-30">
                                         <li>
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your business visible online.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Make your eCommerce business stand out.</h6>
-                                        </li>
-                                        <li class="mt-5">
-                                            <span class="icon">
-                                                <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
-                                                        fill="#fff"></path>
-                                                </svg>
-                                            </span>
-                                            <h6 class="inline fz-16 fw-400">Grow with your audience.</h6>
+                                            <h6 class="inline fz-16 fw-400">This Angular component provides methods to trigger GET and POST requests and displays the responses.</h6>
                                         </li>
                                     </ul>
                                     <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
@@ -723,6 +601,39 @@ export default App;
     <!-- ==================== End Footer ==================== -->
 
     <?php include_once('includes/scripts.php') ?>
+
+    <script>
+        const codeEditorReact = document.getElementById('code-editor-react');
+        const editorReact = CodeMirror.fromTextArea(codeEditorReact, {
+        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+        editorReact.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+     </script>
+     <script>
+        const codeEditorVue = document.getElementById('code-editor-vue');
+        const editorVue = CodeMirror.fromTextArea(codeEditorVue, {
+        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+        editorVue.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+     </script>
+ 
+ <script>
+        const codeEditorAngular = document.getElementById('code-editor-augular');
+        const editorAngular = CodeMirror.fromTextArea(codeEditorAngular, {
+        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
+        htmlMode: true,
+        theme: 'darcula', // Choose a code theme
+        lineNumbers: true, // Display line numbers
+        });
+        editorAngular.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+     </script>
+ 
 
 </body>
 
