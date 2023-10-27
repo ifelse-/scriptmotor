@@ -206,297 +206,177 @@
         <!-- ==================== End Services ==================== -->
 
 
-        <!-- ==================== Start Services ==================== -->
+          <!-- ==================== Start product ==================== -->
 
-        <section class="portfolio-fixed">
-            <div class="container-fluid rest">
-                <div class="row">
+          <section class="product-details section-padding sub-bg">
+                    <div class="container">
                    
-                    <div class="col-lg-12 sub-bg right">
-                        <div class="cont code-snippet active" data-tab="tab-1">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>React </h2>
-
-                                    <p class="mb-20">Below is an example of how you can create a React component to perform GET and POST API requests using the Axios library. Axios is a popular library for making HTTP requests in JavaScript and is commonly used with React applications.</p>
-                                    <textarea id="code-editor-react">
-                                    <?php include('includes/codemirror/react-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">This component, ApiExample, demonstrates how to make GET and POST API requests. Replace the API endpoints and data with your own. The fetched data is stored in the data state variable and displayed on the component.</h6>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-11">
+                                <div class="overview" id="tabs">
+                                    <ul class="rest tab-links mb-30">
+                                        <li class="item-link current" onclick="refreshCodeMirror()" data-tab="tabs-1">
+                                            <h6>React</h6>
+                                        </li>
+                                        <li class="item-link"  onclick="refreshCodeMirror()" data-tab="tabs-2">
+                                            <h6>Vue</h6>
+                                        </li>
+                                        <li class="item-link" onclick="refreshCodeMirror()" data-tab="tabs-3">
+                                            <h6>Angular</h6>
+                                        </li>
+                                        <li class="item-link" onclick="refreshCodeMirror()" data-tab="tabs-4">
+                                            <h6>TypeScript</h6>
+                                        </li>
+                                        <li class="item-link" onclick="refreshCodeMirror()" data-tab="tabs-5">
+                                            <h6>Streamlit (Python)</h6>
                                         </li>
                                     </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
+                                    <div class="tab-cont">
+                                        <div class="tab-content current" id="tabs-1">
+                                            <div class="item">
+                                            <!-- ITEM START -->
+                                        
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-11">
+                                           
+                                                    <h2>React </h2>
+
+                                                    <p class="mb-20">Below is an example of how you can create a React component to perform GET and POST API requests using the Axios library. Axios is a popular library for making HTTP requests in JavaScript and is commonly used with React applications.</p>
+                                                    <textarea id="code-editor-react">
+                                                    <?php include('includes/codemirror/react-snippet.php') ?>
+                                                    </textarea>
+                                                    <ul class="rest list-arrow mt-30">
+                                                        <li>
+                                                            <h6 class="inline fz-16 fw-400">This component, ApiExample, demonstrates how to make GET and POST API requests. Replace the API endpoints and data with your own. The fetched data is stored in the data state variable and displayed on the component.</h6>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                    <span class="sub-title">ScriptMotor</span>
+                                                </div>
+                                            </div>
+                                            <!-- ITEM ENDS -->
+                                            </div>
                                         </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
+                                        <div class="tab-content" id="tabs-2">
+                                            <div class="item info">
+                                               <!-- ITEM START -->
+                                               <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+                                                     <h2>Vue3</h2>
+
+                                                        <p class="mb-20">Below is a Vue 3 component that demonstrates how to perform GET and POST API requests using the Axios library.</p>
+                                                        <textarea id="code-editor-vue">
+                                                        <?php include('includes/codemirror/vue-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This Vue 3 component provides buttons to trigger GET and POST requests, and it displays the fetched data. </h6>
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                        <span class="sub-title">ScriptMotor</span>
+                                                    </div>
+                                                </div>
+                                               <!-- ITEM ENDS -->
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="tabs-3">
+                                            <div class="item reviews">
+                                                <!-- ITEM START -->
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+
+                                                        <h2>Angular</h2>
+
+                                                        <p class="mb-20">Below is an example of an Angular component that demonstrates how to perform GET and POST API requests using Angular's HttpClient.</p>
+                                                        <textarea id="code-editor-angular">
+                                                        <?php include('includes/codemirror/angular-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This Angular component provides methods to trigger GET and POST requests and displays the responses.</h6>
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                        <span class="sub-title">ScriptMotor</span>
+                                                    </div>
+                                                </div>
+                                               <!-- ITEM ENDS -->
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="tabs-4">
+                                            <div class="item reviews">
+                                                <!-- ITEM START -->
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+
+                                                        <h2>Typescripts</h2>
+
+                                                        <p class="mb-20">Below is an example of an Angular component that demonstrates how to perform GET and POST API requests using Angular's HttpClient.</p>
+                                                        <textarea id="code-editor-typescript">
+                                                        <?php include('includes/codemirror/typesript-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This Angular component provides methods to trigger GET and POST requests and displays the responses.</h6>
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                        <span class="sub-title">ScriptMotor</span>
+                                                    </div>
+                                                </div>
+                                               <!-- ITEM ENDS -->
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="tabs-5">
+                                            <div class="item reviews">
+                                                <!-- ITEM START -->
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+
+                                                        <h2>Streamlit</h2>
+
+                                                        <p class="mb-20"> Streamlit is a Python library that allows you to create web applications with minimal effort. Here's a simple example of a Streamlit app that displays a basic web page with some text and a plot:</p>
+                                                        <textarea id="code-editor-streamlit">
+                                                        <?php include('includes/codemirror/streamlit-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This Angular component provides methods to trigger GET and POST requests and displays the responses.</h6>
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                        <span class="sub-title">ScriptMotor</span>
+                                                    </div>
+                                                </div>
+                                               <!-- ITEM ENDS -->
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="cont" data-tab="tab-2">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>Vue3</h2>
-
-                                    <p class="mb-20">Below is a Vue 3 component that demonstrates how to perform GET and POST API requests using the Axios library.</p>
-                                    <textarea id="code-editor-vue">
-                                    <?php include('includes/codemirror/vue-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">This Vue 3 component provides buttons to trigger GET and POST requests, and it displays the fetched data. </h6>
-                                        </li>
-                                    </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
-                                        </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cont code-snippet" data-tab="tab-3">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>Angular</h2>
-
-                                    <p class="mb-20">Below is an example of an Angular component that demonstrates how to perform GET and POST API requests using Angular's HttpClient.</p>
-                                    <textarea id="code-editor-augular">
-                                    <?php include('includes/codemirror/angular-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">This Angular component provides methods to trigger GET and POST requests and displays the responses.</h6>
-                                        </li>
-                                    </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
-                                        </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
+                </section>
 
-                    
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== End Services ==================== -->
+                <!-- ==================== End product ==================== -->
 
 
-
-        <!-- ==================== Start services tabs ==================== -->
-
-        <section class="services-tab section-padding">
-            <div class="container">
-                <div class="row" id="tabs">
-                    <div class="col-lg-6 order2">
-                        <div class="serv-tab-cont mb-80">
-                            <div class="tab-content current" id="tabs-1">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/code-screen.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>Explore my portfolio to see the magic I've woven into each project. From elegant landing pages to complex web applications, my work speaks volumes about my frontend prowess.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-2">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/1.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-3">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/2.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-4">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-content" id="tabs-5">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-content" id="tabs-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1 valign order1">
-                        <div class="serv-tab-link tab-links full-width md-mb50">
-                            <div class="sec-lg-head mb-80">
-                                <h6 class="dot-titl-non mb-15">Services</h6>
-                                <p>We help you to go online and increase your conversion rate Better design for your
-                                    digital products. </p>
-                            </div>
-                            <ul class="rest">
-                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> UI/UX Design</li>
-                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Vue</li>
-                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> React</li>
-                                <li class="item-link mb-15" data-tab="tabs-4"><span>04</span> JavaScript</li>
-                                <li class="item-link mb-15" data-tab="tabs-5"><span>05</span> TypeScript</li>
-                                <li class="item-link" data-tab="tabs-6"><span>06</span> HTML & CSS</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== End services tabs ==================== -->
-
+      
 
 
         <!-- ==================== Start about ==================== -->
 
-        <section class="intro-corp section-padding pt-0">
+        <section class="intro-corp section-padding pt-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -603,35 +483,44 @@
     <?php include_once('includes/scripts.php') ?>
 
     <script>
+
+        // Store your CodeMirror instances in an array
+        const codeEditors = [];
+
+        // Function to build a CodeMirror editor
+        function buildCodeMirrorEditor(id) {
+        const editor = CodeMirror.fromTextArea(id, {
+            mode: 'javascript',
+            htmlMode: true,
+            theme: 'darcula',
+            lineNumbers: true,
+        });
+
+        codeEditors.push(editor); // Add the editor to the array
+        }
+
+        // Build your CodeMirror editors
         const codeEditorReact = document.getElementById('code-editor-react');
-        const editorReact = CodeMirror.fromTextArea(codeEditorReact, {
-        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-        htmlMode: true,
-        theme: 'darcula', // Choose a code theme
-        lineNumbers: true, // Display line numbers
-        });
-        editorReact.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
-     </script>
-     <script>
         const codeEditorVue = document.getElementById('code-editor-vue');
-        const editorVue = CodeMirror.fromTextArea(codeEditorVue, {
-        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-        htmlMode: true,
-        theme: 'darcula', // Choose a code theme
-        lineNumbers: true, // Display line numbers
+        const codeEditorAngular = document.getElementById('code-editor-angular');
+        const codeEditorTypeScript = document.getElementById('code-editor-typescript');
+        const codeEditorStreamlit = document.getElementById('code-editor-streamlit');
+
+
+        buildCodeMirrorEditor(codeEditorReact);
+        buildCodeMirrorEditor(codeEditorVue);
+        buildCodeMirrorEditor(codeEditorAngular);
+        buildCodeMirrorEditor(codeEditorTypeScript);
+        buildCodeMirrorEditor(codeEditorStreamlit);
+
+        // Function to refresh all CodeMirror instances
+        function refreshCodeMirror() {
+        codeEditors.forEach((editor) => {
+            setTimeout(() => {
+                editor.refresh();
+            }, "0");
         });
-        editorVue.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
-     </script>
- 
- <script>
-        const codeEditorAngular = document.getElementById('code-editor-augular');
-        const editorAngular = CodeMirror.fromTextArea(codeEditorAngular, {
-        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-        htmlMode: true,
-        theme: 'darcula', // Choose a code theme
-        lineNumbers: true, // Display line numbers
-        });
-        editorAngular.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        }
      </script>
  
 

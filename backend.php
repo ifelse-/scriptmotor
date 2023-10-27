@@ -365,259 +365,144 @@
             </div>
         </section>
 
+         <!-- ==================== Start product ==================== -->
 
-
-        <!-- ==================== Start Services ==================== -->
-
-        <section class="portfolio-fixed">
-            <div class="container-fluid rest">
-                <div class="row">
-                    <div class="col-lg-12 sub-bg right">
-                        <div class="cont code-snippet active" data-tab="tab-1">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>Node Express</h2>
-
-                                    <p class="mb-20">Below is an example of a simple Node.js and Express API with comments explaining the code</p>
-                                    <textarea id="code-editor-node">
-                                    <?php include('includes/codemirror/node-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">This code sets up a basic Node.js and Express API with two routes:
-                                            </h6>
-                                            <ol>
-                                                <li>GET /api/comments: This route returns all comments in the comments array.</li>
-                                                <li>POST /api/comments: This route allows you to add a new comment to the comments </li>
-                                            </ol>   
+         <section class="product-details section-padding sub-bg">
+                    <div class="container">
+                   
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <div class="overview" id="tabs">
+                                    <ul class="rest tab-links mb-30">
+                                        <li class="item-link current" onclick="refreshCodeMirror()" data-tab="tabs-1">
+                                            <h6>Node Express</h6>
                                         </li>
-                                    </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
-                                        </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cont" data-tab="tab-2">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>Python</h2>
-
-                                    <p class="mb-20"> Below is a Python script that demonstrates a simple API using the Flask framework.</p>
-                                    <textarea id="code-editor-python">
-                                    <?php include('includes/codemirror/python-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">This script sets up a basic Flask application with three routes:</h6>
-                                            <ol>
-                                                <li>/api/data for getting all data (GET request).</li>
-                                                <li>/api/data/<int:id> for getting data by ID (GET request).</li>
-                                                <li>/api/data for adding new data (POST request).</li>
-                                            </ol>
+                                        <li class="item-link"  onclick="refreshCodeMirror()" data-tab="tabs-2">
+                                            <h6>Python</h6>
                                         </li>
-                                    </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
-                                        </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cont code-snippet" data-tab="tab-3">
-                            <div class="img-hiden">
-                                <img src="assets/imgs/portfolio/gallery/1.jpg" alt="">
-                            </div>
-                          
-                            <div class="row justify-content-center">
-                                <div class="col-md-11">
-                                <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
-
-                                    <span class="sub-title">From Scratch</span>
-                                    <h2>Php</h2>
-
-                                    <p class="mb-20">Here's an example of a simple PHP API</p>
-                                    <textarea id="code-editor-php">
-                                    <?php include('includes/codemirror/php-snippet.php') ?>
-                                    </textarea>
-                                    <ul class="rest list-arrow mt-30">
-                                        <li>
-                                            <h6 class="inline fz-16 fw-400">In this code</h6>
-                                            <ul>
-                                                <li>We define an array named $data to store data.</li>
-                                                <li>We have two routes: one for GET requests and another for POST requests.</li>
-                                                <li>For GET requests, we check if the endpoint parameter is set to 'data' and return the data stored in the $data array.</li>
-                                                <li>For POST requests, we check if the endpoint parameter is set to 'data' and add the new data to the $data array.</li>
-                                            </ul>
+                                        <li class="item-link" onclick="refreshCodeMirror()" data-tab="tabs-3">
+                                            <h6>Php</h6>
                                         </li>
+                                      
                                     </ul>
-                                    <a href="#0" class="butn-circle d-flex align-items-center text-center mt-50">
-                                        <div class="full-width">
-                                            <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
-                                                        fill="currentColor"></path>
-                                                </svg></span>
-                                            <span class="full-width">View Details</span>
-                                        </div>
-                                        <img src="assets/imgs/svg-assets/circle-star.svg" alt="" class="circle-star">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                                    <div class="tab-cont">
+                                        <div class="tab-content current" id="tabs-1">
+                                            <div class="item">
+                                            <!-- ITEM START -->
+                                    
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+                                                
+                                                        <h2>Node Express</h2>
 
-        <!-- ==================== End Services ==================== -->
+                                                        <p class="mb-20">Below is an example of a simple Node.js and Express API with comments explaining the code</p>
+                                                        <textarea id="code-editor-node">
+                                                        <?php include('includes/codemirror/node-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This code sets up a basic Node.js and Express API with two routes:
+                                                                </h6>
+                                                                <ol>
+                                                                    <li>GET /api/comments: This route returns all comments in the comments array.</li>
+                                                                    <li>POST /api/comments: This route allows you to add a new comment to the comments </li>
+                                                                </ol>   
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
 
+                                                        <span class="sub-title">Scriptmotor</span>
+                                                    </div>
+                                                </div>
+                       
+                                            <!-- ITEM ENDS -->
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="tabs-2">
+                                            <div class="item info">
+                                               <!-- ITEM START -->
+                                               <div class="row justify-content-center">
+                                                    <div class="col-md-11">
+                                                   
+                                                        <h2>Python</h2>
 
+                                                        <p class="mb-20"> Below is a Python script that demonstrates a simple API using the Flask framework.</p>
+                                                        <textarea id="code-editor-python">
+                                                        <?php include('includes/codemirror/python-snippet.php') ?>
+                                                        </textarea>
+                                                        <ul class="rest list-arrow mt-30">
+                                                            <li>
+                                                                <h6 class="inline fz-16 fw-400">This script sets up a basic Flask application with three routes:</h6>
+                                                                <ol>
+                                                                    <li>/api/data for getting all data (GET request).</li>
+                                                                    <li>/api/data/<int:id> for getting data by ID (GET request).</li>
+                                                                    <li>/api/data for adding new data (POST request).</li>
+                                                                </ol>
+                                                            </li>
+                                                        </ul>
+                                                        <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
 
-        <!-- ==================== Start services tabs ==================== -->
+                                                        <span class="sub-title">Scriptmotor</span>
+                                                    </div>
+                                                </div>
+                                               <!-- ITEM ENDS -->
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="tabs-3">
+                                            <div class="item reviews">
+                                                <!-- ITEM START -->
+                                                <div class="row justify-content-center">
+                                                <div class="col-md-11">
+                                                
+                                                    <h2>Php</h2>
 
-        <section class="services-tab section-padding">
-            <div class="container">
-                <div class="row" id="tabs">
-                    <div class="col-lg-6 order2">
-                        <div class="serv-tab-cont mb-80">
-                            <div class="tab-content current" id="tabs-1">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/fulldev.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
+                                                    <p class="mb-20">Here's an example of a simple PHP API</p>
+                                                    <textarea id="code-editor-php">
+                                                    <?php include('includes/codemirror/php-snippet.php') ?>
+                                                    </textarea>
+                                                    <ul class="rest list-arrow mt-30">
+                                                        <li>
+                                                            <h6 class="inline fz-16 fw-400">In this code</h6>
+                                                            <ul>
+                                                                <li>We define an array named $data to store data.</li>
+                                                                <li>We have two routes: one for GET requests and another for POST requests.</li>
+                                                                <li>For GET requests, we check if the endpoint parameter is set to 'data' and return the data stored in the $data array.</li>
+                                                                <li>For POST requests, we check if the endpoint parameter is set to 'data' and add the new data to the $data array.</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="rotate-circle setup-section" src="assets/imgs/coggear.png" alt="">
+
+                                                    <span class="sub-title">Scriptmotor</span>
+                                                </div>
+                                            </div>
+                                               <!-- ITEM ENDS -->
+                                              
+                                            </div>
                                         </div>
-                                        <div class="text">
-                                            <p> My portfolio is a testament to the infrastructure and tools I've meticulously chosen to streamline the development process. From version control to deployment, I've got it all covered.</p>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-2">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/1.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-3">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/2.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-content" id="tabs-4">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/sass-img/serv/1.jpg" alt="">
-                                    </div>
-                                    <div class="cont sub-bg">
-                                        <div class="icon-img-60 mb-40">
-                                            <img src="assets/imgs/serv-icons/0.png" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <p>We are a creative studio specializing in design,
-                                                development and strategy many different skills and disciplines in the
-                                                production of all web.</p>
-                                        </div>
-                                        <a href="#0" class="mt-30">
-                                            <span class="mr-15">Read More</span>
-                                            <i class="fas fa-long-arrow-alt-right"></i>
-                                        </a>
+                                    
                                     </div>
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
-                    <div class="col-lg-5 offset-lg-1 valign order1">
-                        <div class="serv-tab-link tab-links full-width md-mb50">
-                            <div class="sec-lg-head mb-80">
-                                <h6 class="dot-titl-non mb-15">Languages</h6>
-                                <p>I've carefully curated a set of tools and infrastructure that not only make development a breeze but also ensure scalability and reliability. </p>
-                            </div>
-                            <ul class="rest">
-                                <li class="item-link current mb-15" data-tab="tabs-1"><span>01</span> Node</li>
-                                <li class="item-link mb-15" data-tab="tabs-2"><span>02</span> Python</li>
-                                <li class="item-link mb-15" data-tab="tabs-3"><span>03</span> Php</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </section>
 
-        <!-- ==================== End services tabs ==================== -->
+                <!-- ==================== End product ==================== -->
+
+
+      
+
+
+        <!-- ==================== Start about ==================== -->
+
 
 
 
         <!-- ==================== Start about ==================== -->
 
-        <section class="intro-corp section-padding pt-0">
+        <section class="intro-corp section-padding pt-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -727,36 +612,41 @@
 
  
     <script>
-        const codeEditorNode = document.getElementById('code-editor-node');
-        const editorNode = CodeMirror.fromTextArea(codeEditorNode, {
-        mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-        htmlMode: true,
-        theme: 'darcula', // Choose a code theme
-        lineNumbers: true, // Display line numbers
+          
+        // Store your CodeMirror instances in an array
+        const codeEditors = [];
+
+        // Function to build a CodeMirror editor
+        function buildCodeMirrorEditor(id) {
+        const editor = CodeMirror.fromTextArea(id, {
+            mode: 'javascript',
+            htmlMode: true,
+            theme: 'darcula',
+            lineNumbers: true,
         });
-        editorNode.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
-     </script>
 
-    <script>
-            const codeEditorPython = document.getElementById('code-editor-python');
-            const editorPython = CodeMirror.fromTextArea(codeEditorPython, {
-            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-            htmlMode: true,
-            theme: 'darcula', // Choose a code theme
-            lineNumbers: true, // Display line numbers
-            });
-            editorPython.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
-        </script>     
+        codeEditors.push(editor); // Add the editor to the array
+        }
 
-    <script>
-            const codeEditorPhp = document.getElementById('code-editor-php');
-            const editorPhp = CodeMirror.fromTextArea(codeEditorPhp, {
-            mode: 'javascript', // Set the code mode (e.g., javascript, html, css)
-            htmlMode: true,
-            theme: 'darcula', // Choose a code theme
-            lineNumbers: true, // Display line numbers
-            });
-            editorPhp.markText({line: 6, ch: 26}, {line: 6, ch: 42}, {className: "styled-background"});
+        // Build your CodeMirror editors
+        const codeEditorNode = document.getElementById('code-editor-node');
+        const codeEditorPython = document.getElementById('code-editor-python');
+        const codeEditorPhp = document.getElementById('code-editor-php');
+
+
+        buildCodeMirrorEditor(codeEditorNode);
+        buildCodeMirrorEditor(codeEditorPython);
+        buildCodeMirrorEditor(codeEditorPhp);
+
+
+        // Function to refresh all CodeMirror instances
+        function refreshCodeMirror() {
+        codeEditors.forEach((editor) => {
+            setTimeout(() => {
+                editor.refresh();
+            }, "0");
+        });
+        }
         </script>   
 </body>
 
